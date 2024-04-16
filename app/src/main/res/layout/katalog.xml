@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_katalog">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Каталог товаров"
+        android:textColor="#ffff"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/monitor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/flowers" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="7dp"
+        android:text="Букет цветов"
+        android:textColor="#ffff"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:text="Цена: 4500Р"
+        android:textColor="#ffff"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/btnFlows"
+        android:layout_width="118dp"
+        android:layout_height="27dp"
+        android:padding="0dp"
+        android:text="Купить"
+        android:textAllCaps="false"
+        app:cornerRadius="3dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        android:layout_marginLeft="36dp"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/clocks" />
+
+    <TextView
+        android:id="@+id/n2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Часы наручные"
+        android:textColor="#ffff"
+        android:textSize="12sp"
+        android:layout_marginTop="7dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Цена: 5000Р"
+        android:textColor="#ffff"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/n2"
+        app:layout_constraintTop_toBottomOf="@+id/n2" />
+
+    <Button
+        android:id="@+id/btnClocks"
+        android:layout_width="118dp"
+        android:layout_height="27dp"
+        android:padding="0dp"
+        android:text="Купить"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:cornerRadius="3dp"
+        app:layout_constraintStart_toStartOf="@+id/p2"
+        app:layout_constraintTop_toBottomOf="@+id/p2" />
+
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFlows"
+        app:srcCompat="@drawable/phone"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="13dp"/>
+
+    <TextView
+        android:id="@+id/n3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="Смартфон"
+        android:textColor="#ffff"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/p3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Цена: 15000Р"
+        android:textColor="#ffff"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/n3"
+        app:layout_constraintTop_toBottomOf="@+id/n3" />
+
+    <Button
+        android:id="@+id/btnPhone"
+        android:layout_width="118dp"
+        android:layout_height="27dp"
+        android:padding="0dp"
+        android:text="Купить"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:cornerRadius="3dp"
+        app:layout_constraintStart_toStartOf="@+id/p3"
+        app:layout_constraintTop_toBottomOf="@+id/p3" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnClocks"
+        app:srcCompat="@drawable/burger" />
+
+    <TextView
+        android:id="@+id/n4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Бургер"
+        android:textColor="#ffff"
+        android:layout_marginTop="7dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/p4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Цена: 200Р"
+        android:textColor="#ffff"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/n4"
+        app:layout_constraintTop_toBottomOf="@+id/n4" />
+
+    <Button
+        android:id="@+id/btnBurger"
+        android:layout_width="118dp"
+        android:layout_height="27dp"
+        android:padding="0dp"
+        android:text="Купить"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:cornerRadius="3dp"
+        app:layout_constraintStart_toStartOf="@+id/p4"
+        app:layout_constraintTop_toBottomOf="@+id/p4" />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="13dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPhone"
+        app:srcCompat="@drawable/ring" />
+
+    <TextView
+        android:id="@+id/n5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кольцо"
+        android:textColor="#ffff"
+        android:layout_marginTop="7dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/p5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Цена: 20000Р"
+        android:textColor="#ffff"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/n5"
+        app:layout_constraintTop_toBottomOf="@+id/n5" />
+
+    <Button
+        android:id="@+id/btnRing"
+        android:layout_width="118dp"
+        android:layout_height="27dp"
+        android:padding="0dp"
+        android:text="Купить"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:cornerRadius="3dp"
+        app:layout_constraintStart_toStartOf="@+id/p5"
+        app:layout_constraintTop_toBottomOf="@+id/p5" />
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBurger"
+        app:srcCompat="@drawable/robot" />
+
+    <TextView
+        android:id="@+id/n6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Робот-пылесос"
+        android:textColor="#ffff"
+        android:layout_marginTop="7dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/p6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Цена: 18000Р"
+        android:textColor="#ffff"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/n6"
+        app:layout_constraintTop_toBottomOf="@+id/n6" />
+
+    <Button
+        android:id="@+id/btnRobot"
+        android:layout_width="118dp"
+        android:layout_height="27dp"
+        android:padding="0dp"
+        android:text="Купить"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:cornerRadius="3dp"
+        app:layout_constraintStart_toStartOf="@+id/p6"
+        app:layout_constraintTop_toBottomOf="@+id/p6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
